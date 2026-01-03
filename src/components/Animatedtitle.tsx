@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 
-import styles from '../Styles/Animatedtitle.module.css';
+import styles from '../styles/Animatedtitle.module.css';
 
 export default function AnimatedOverlay() {
   const [show, setShow] = useState(true);

@@ -1,0 +1,29 @@
+.marqueecontainer {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  background: transparent;
+  color: white;
+  font-size: 2em;
+  padding-top: 2%;
+  font-weight: bold;
+}
+
+.marqueecontent span {
+  margin-right: 3rem; /* adds space between each span */
+}
+
+.marqueecontent {
+  display: inline-block;
+  animation: scrollText 60s linear infinite;
+}
+
+@keyframes scrollText {
+  0% {
+    transform: translateX(100vw); /* start just outside the right edge */
+  }
+  100% {
+    transform: translateX(-100vw); /* move past the left edge */
+  }
+}
+

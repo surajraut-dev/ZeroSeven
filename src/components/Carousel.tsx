@@ -17,7 +17,7 @@ export default function Carousel() {
         disableOnInteraction: false,
       }}
       loop={true}
-      style={{ width: '100vw', height: '100vh' }}
+      style={{ width: '100vw', height: '50vh',marginTop:'5%' }}
       // custom easing for smoother slow-down
       onInit={(swiper) => {
         swiper.el.style.setProperty('--swiper-transition-timing-function', 'ease-out');
@@ -26,7 +26,7 @@ export default function Carousel() {
 
       <SwiperSlide>
         <div style={{ position: 'relative', width: '100%', height: '100%' }}>
-          <Image src="/Carousel1.jpeg" alt="1" fill style={{ objectFit: 'cover' }} />
+          <Image src="/Carousel4.jpeg" alt="1" fill style={{ objectFit: 'cover' }} />
         </div>
       </SwiperSlide>
 
